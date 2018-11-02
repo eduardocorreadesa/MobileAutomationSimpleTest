@@ -11,20 +11,20 @@
 
 #Install a project:
 
-1- Clone the project.
-2- Open the project using Eclipse (IDE)
-3- Install the TestNG plugin in Eclipse.
-  3.1- Accessing Eclipse in the menu "help / Eclipse Marktplace"
-  3.2- Search for "TestNG"
-  3.3- Install the "TestNG for Eclipse"
-  3.4- Close and open Eclipse
-4- Install as dependencies of Maven
-  4.1- Right click on the file "pom.xml"
-  4.2- Click on "Run As - Maven Install"
+- Clone the project.
+- Open the project using Eclipse (IDE)
+- Install the TestNG plugin in Eclipse.
+  - Accessing Eclipse in the menu "help / Eclipse Marktplace"
+  - Search for "TestNG"
+  - Install the "TestNG for Eclipse"
+  - Close and open Eclipse
+- Install as dependencies of Maven
+  - Right click on the file "pom.xml"
+  - Click on "Run As - Maven Install"
 
 #Run the test:
 
-1- Open the project via Eclipse;
-2- Right click on the file "functionalTest.xml" and select "Run as TestNG";
-3- The execution will be carried out in device in the cloud via Sauce Labs;
-4- Images of test evidence in: MobileAutomationSimpleTest/test-output/evidences/
+- Open the project via Eclipse;
+- Right click on the file "functionalTest.xml" and select "Run as TestNG";
+- The execution will be carried out in device in the cloud via Sauce Labs;
+- Images of test evidence in: MobileAutomationSimpleTest/test-output/evidences/
