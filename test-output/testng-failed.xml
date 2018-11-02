@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="app" value="TrianguloApp.apk"/>
+  <parameter name="name" value="Mobile Teste Android"/>
+  <parameter name="device" value="Android Emulator"/>
+  <parameter name="platform" value="MobilePlatform.ANDROID"/>
+  <test name="Mobile">
+    <parameter name="app" value="TrianguloApp.apk"/>
+    <parameter name="name" value="Mobile Teste Android"/>
+    <parameter name="device" value="Android Emulator"/>
+    <parameter name="platform" value="MobilePlatform.ANDROID"/>
+    <classes>
+      <class name="tools.CreateAmbient"/>
+      <class name="tests.HomeTest"/>
+    </classes>
+  </test> <!-- Mobile -->
+</suite> <!-- Failed suite [Suite] -->

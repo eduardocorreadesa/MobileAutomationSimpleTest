@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106006" started-at="2016-06-03T13:29:01Z" finished-at="2016-06-03T13:30:47Z">
+    <groups>
+      <group name="Teste CRUD">
+        <method signature="LoginTest.loginApp()[pri:0, instance:tests.LoginTest@54b24c03]" name="loginApp" class="tests.LoginTest"/>
+        <method signature="CadastrarDespesaTest.cadastrarDespesa()[pri:0, instance:tests.CadastrarDespesaTest@7f387985]" name="cadastrarDespesa" class="tests.CadastrarDespesaTest"/>
+        <method signature="CadastrarReceitaTest.cadastrarReceita()[pri:0, instance:tests.CadastrarReceitaTest@59c8466]" name="cadastrarReceita" class="tests.CadastrarReceitaTest"/>
+        <method signature="FecharAppTest.fecharApp()[pri:0, instance:tests.FecharAppTest@18a9b68c]" name="fecharApp" class="tests.FecharAppTest"/>
+      </group> <!-- Teste CRUD -->
+    </groups>
+    <test name="Mobile" duration-ms="106006" started-at="2016-06-03T13:29:01Z" finished-at="2016-06-03T13:30:47Z">
+      <class name="tests.LoginTest">
+        <test-method status="FAIL" signature="loginApp()[pri:0, instance:tests.LoginTest@54b24c03]" name="loginApp" duration-ms="53293" started-at="2016-06-03T10:29:53Z" finished-at="2016-06-03T10:30:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at tests.LoginTest.loginApp(LoginTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CadastrarDespesaTest">
+        <test-method status="SKIP" signature="cadastrarDespesa()[pri:0, instance:tests.CadastrarDespesaTest@7f387985]" name="cadastrarDespesa" duration-ms="1" started-at="2016-06-03T10:30:46Z" depends-on-methods="tests.LoginTest.loginApp" finished-at="2016-06-03T10:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cadastrarDespesa -->
+      </class> <!-- tests.CadastrarDespesaTest -->
+      <class name="tools.CriarAmbiente">
+        <test-method status="PASS" signature="iniciarInstancia(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tools.CriarAmbiente@59ea632e]" name="iniciarInstancia" is-config="true" duration-ms="52292" started-at="2016-06-03T10:29:01Z" finished-at="2016-06-03T10:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MobilePlatform.ANDROID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MinhasEconomias]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mobile Teste Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarInstancia -->
+        <test-method status="PASS" signature="finalizar()[pri:0, instance:tools.CriarAmbiente@59ea632e]" name="finalizar" is-config="true" duration-ms="407" started-at="2016-06-03T10:30:46Z" finished-at="2016-06-03T10:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizar -->
+      </class> <!-- tools.CriarAmbiente -->
+      <class name="tests.FecharAppTest">
+        <test-method status="SKIP" signature="fecharApp()[pri:0, instance:tests.FecharAppTest@18a9b68c]" name="fecharApp" duration-ms="0" started-at="2016-06-03T10:30:46Z" depends-on-methods="tests.LoginTest.loginApp" finished-at="2016-06-03T10:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fecharApp -->
+      </class> <!-- tests.FecharAppTest -->
+      <class name="tests.CadastrarReceitaTest">
+        <test-method status="SKIP" signature="cadastrarReceita()[pri:0, instance:tests.CadastrarReceitaTest@59c8466]" name="cadastrarReceita" duration-ms="1" started-at="2016-06-03T10:30:46Z" depends-on-methods="tests.LoginTest.loginApp" finished-at="2016-06-03T10:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cadastrarReceita -->
+      </class> <!-- tests.CadastrarReceitaTest -->
+    </test> <!-- Mobile -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100836" started-at="2018-11-02T21:36:58Z" finished-at="2018-11-02T21:38:39Z">
+    <groups>
+    </groups>
+    <test name="Mobile" duration-ms="100836" started-at="2018-11-02T21:36:58Z" finished-at="2018-11-02T21:38:39Z">
+      <class name="tools.CreateAmbient">
+        <test-method status="PASS" signature="iniciarInstancia(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tools.CreateAmbient@5649fd9b]" name="iniciarInstancia" is-config="true" duration-ms="30723" started-at="2018-11-02T19:36:58Z" finished-at="2018-11-02T19:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MobilePlatform.ANDROID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TrianguloApp.apk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mobile Teste Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarInstancia -->
+        <test-method status="PASS" signature="finalizar()[pri:0, instance:tools.CreateAmbient@5649fd9b]" name="finalizar" is-config="true" duration-ms="473" started-at="2018-11-02T19:38:39Z" finished-at="2018-11-02T19:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizar -->
+      </class> <!-- tools.CreateAmbient -->
+      <class name="tests.HomeTest">
+        <test-method status="PASS" signature="testCalcEquilatero()[pri:0, instance:tests.HomeTest@6adede5]" name="testCalcEquilatero" duration-ms="23262" started-at="2018-11-02T19:37:29Z" finished-at="2018-11-02T19:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalcEquilatero -->
+        <test-method status="PASS" signature="testCalcoEscaleno()[pri:0, instance:tests.HomeTest@6adede5]" name="testCalcoEscaleno" duration-ms="35049" started-at="2018-11-02T19:37:52Z" finished-at="2018-11-02T19:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalcoEscaleno -->
+        <test-method status="PASS" signature="testMsg()[pri:0, instance:tests.HomeTest@6adede5]" name="testMsg" duration-ms="11312" started-at="2018-11-02T19:38:28Z" finished-at="2018-11-02T19:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMsg -->
+      </class> <!-- tests.HomeTest -->
+    </test> <!-- Mobile -->
+  </suite> <!-- Suite -->
+</testng-results>

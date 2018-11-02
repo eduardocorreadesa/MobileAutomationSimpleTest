@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="platform" value="MobilePlatform.ANDROID"/>
+  <parameter name="app" value="MinhasEconomias"/>
+  <parameter name="name" value="Mobile Teste Android"/>
+  <parameter name="device" value="Android Emulator"/>
+  <test name="Mobile(failed)">
+    <parameter name="app" value="MinhasEconomias"/>
+    <parameter name="platform" value="MobilePlatform.ANDROID"/>
+    <parameter name="name" value="Mobile Teste Android"/>
+    <parameter name="device" value="Android Emulator"/>
+    <classes>
+      <class name="tools.CriarAmbiente">
+        <methods>
+          <include name="finalizar"/>
+          <include name="iniciarInstancia"/>
+        </methods>
+      </class> <!-- tools.CriarAmbiente -->
+      <class name="tests.FecharAppTest">
+        <methods>
+          <include name="fecharApp"/>
+        </methods>
+      </class> <!-- tests.FecharAppTest -->
+      <class name="tests.CadastrarDespesaTest">
+        <methods>
+          <include name="cadastrarDespesa"/>
+        </methods>
+      </class> <!-- tests.CadastrarDespesaTest -->
+      <class name="tests.CadastrarReceitaTest">
+        <methods>
+          <include name="cadastrarReceita"/>
+        </methods>
+      </class> <!-- tests.CadastrarReceitaTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Mobile(failed) -->
+</suite> <!-- Failed suite [Suite] -->

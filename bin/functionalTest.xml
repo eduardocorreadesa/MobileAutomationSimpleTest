@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Mobile" preserve-order="true">
+		<parameter name="platform" value="MobilePlatform .ANDROID"></parameter>
+		<parameter name="device" value="Android Emulator"></parameter>
+		<parameter name="app" value="MinhasEconomias"></parameter>
+		<parameter name="name" value="Mobile Teste Android"></parameter>
+		<classes>
+			<class name=" tools..CriarAmbiente " />
+			<class name=" tests.LoginTest" />
+			<class name=" tests.CadastrarReceitaTest" />
+			<class name=" tests.CadastrarDespesaTest" />
+			<class name=" tests.FecharAppTest" />
+		</classes>
+	</test>
+</suite>
